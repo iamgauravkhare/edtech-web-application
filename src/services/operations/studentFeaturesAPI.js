@@ -1,7 +1,7 @@
 import { toast } from "react-hot-toast";
 // const RAJORPAY_API_KEY = import.meta.env.VITE_API_RAJORPAY_KEY;
 
-console.log(process.env.VITE_API_URL);
+console.log(import.meta.env.VITE_API_URL);
 
 import rzpLogo from "../../assets/Logo/rzp_logo.png";
 import { resetCart } from "../../slices/cartSlice";
