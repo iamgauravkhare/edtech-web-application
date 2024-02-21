@@ -9,5 +9,7 @@ export default defineConfig({
   },
   define: {
     global: {},
+    BACKEND_URL: process.env.VITE_API_URL,
+    RAJORPAY: process.env.VITE_RAJORPAY,
   },
 });

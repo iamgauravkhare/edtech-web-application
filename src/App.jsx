@@ -36,6 +36,8 @@ import { getUserDetails } from "./services/operations/profileAPI";
 import { ACCOUNT_TYPE } from "./utils/constants";
 
 function App() {
+  console.log(VITE_API_URL);
+  console.log(VITE_RAJORPAY);
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const { user } = useSelector((state) => state.profile);
