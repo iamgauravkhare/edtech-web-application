@@ -1,4 +1,6 @@
-const BASE_URL = import.meta.env.VITE_API_BASE_URL;
+// const BASE_URL = import.meta.env.VITE_API_BASE_URL;
+const BASE_URL = "https://edtech-web-application-d4az.onrender.com/api/v1";
+console.log(BASE_URL);
 
 // AUTH ENDPOINTS
 export const endpoints = {

@@ -1,5 +1,5 @@
 import { toast } from "react-hot-toast";
-const RAJORPAY_API_KEY = import.meta.env.VITE_API_RAJORPAY_KEY;
+// const RAJORPAY_API_KEY = import.meta.env.VITE_API_RAJORPAY_KEY;
 
 import rzpLogo from "../../assets/Logo/rzp_logo.png";
 import { resetCart } from "../../slices/cartSlice";
@@ -72,7 +72,8 @@ export async function BuyCourse(
 
     // Opening the Razorpay SDK
     const options = {
-      key: RAJORPAY_API_KEY,
+      // key: RAJORPAY_API_KEY,
+      key: "rzp_test_vB5E8hNcCCWGRP",
       currency: orderResponse.data.data.currency,
       amount: `${orderResponse.data.data.amount}`,
       order_id: orderResponse.data.data.id,
