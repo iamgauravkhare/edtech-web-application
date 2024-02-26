@@ -8,7 +8,7 @@ export default defineConfig({
   },
   define: {
     global: {},
-    BACKEND_URL: JSON.stringify(process.env.VITE_API_URL),
+    BACKEND_URL: JSON.stringify(process.env.VITE_API_BASE_URL),
     RAJORPAY: JSON.stringify(process.env.VITE_RAJORPAY),
   },
 });
